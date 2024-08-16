@@ -3,14 +3,13 @@ import React from "react";
 const Roadmap = () => {
   return (
     <div 
-      className="w-full h-[80vw] bg-no-repeat "
+      className="w-full h-[80vw] bg-no-repeat bg-[url(/public/images/roadmapbg.png)]"
       style={{
-        backgroundImage: 'url(images/roadmapbg.png)',
         backgroundSize: "100%, 100%"
       }}
     >
-      <div id="road" className="flex flex-col w-full py-[12vw] px-[6vw] gap-[2vw] justify-between">
-        <div className="text-[#FF4A4A] text-[4vw]">ROADMAP</div>
+      <div id="road" className="flex flex-col w-full sm:py-[12vw] py-[4vw] px-[6vw] gap-[2vw] justify-between">
+        <div className="text-[#FF4A4A] sm:text-[4vw] text-[8vw]">ROADMAP</div>
         <div className="flex flex-row w-full gap-[2vw] h-[60vw]">
           <div className=" flex flex-col gap-[2vw] w-[30vw]">
             <div className=" border-[2px] border-white p-[3vw] h-[60%]">

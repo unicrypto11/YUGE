@@ -4,9 +4,8 @@ const MegaPaper = () => {
   return (
     <div
     id="mega"
-      className=" h-[56vw] relative"
+      className=" sm:h-[56vw] h-[105vw] relative sm:bg-[url(/public/images/Group59445.png)] bg-[url(/public/images/smroadmapbg.png)]"
       style={{
-        backgroundImage: "url(images/Group59445.png)",
         backgroundRepeat: "no-repeat",
         backgroundSize: "100%, 100%",
       }}
@@ -15,12 +14,12 @@ const MegaPaper = () => {
         <div onClick={()=>{
             window.open('whitepaper/whitepaper2.1.pdf', '_blank');}} className=" relative hover:cursor-pointer" >
           <div  className="relative text-center left-[6vw]">
-            <div className="text-[3.5vw]">READ</div>
-            <div style={{ textTransform: "uppercase" }} className="text-[2vw]">
+            <div className="sm:text-[3.5vw] text-[10vw]">READ</div>
+            <div style={{ textTransform: "uppercase" }} className="sm:text-[2vw] text-[6vw]">
               Mega Paper
             </div>
           </div>
-          <div className=" absolute top-[-5vw] w-[20vw] h-[20vw]">
+          <div className=" absolute sm:top-[-5vw] sm:left-[1vw] sm:w-[20vw] sm:h-[20vw] top-[-8vw] left-[-5vw] w-[48vw] h-[48vw]">
             <img src="images/legacy.png" alt="" />
           </div>
         </div>
