@@ -3,7 +3,7 @@ import React from "react";
 const BlueSkyShop = () => {
     return (
         <div id="merc" className=" flex flex-col w-full h-[124vw] relative">
-            <div className=" w-full h-[34vw]" style={{backgroundImage:'url(images/disc.png)', backgroundRepeat: "no-repeat", backgroundSize: "100%, 100%"}}>
+            <div className=" w-full h-[34vw]" style={{backgroundImage:'url(images/Disc.png)', backgroundRepeat: "no-repeat", backgroundSize: "100%, 100%"}}>
                 <div className="flex flex-row justify-center items-center pt-[12vw] pb-[1vw] gap-[1vw]">
                     <div className="flex px-[1vw] py-[0.2vw] border-solid border-[0.3vw] border-white text-white text-[2.5vw]">
                         coming soon
