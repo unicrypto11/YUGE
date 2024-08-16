@@ -11,8 +11,12 @@ const MegaPaper = () => {
       }}
     >
       <div className="text-white absolute right-[30vw] top-[15vw]">
-        <div onClick={()=>{
-            window.open('whitepaper/whitepaper2.1.pdf', '_blank');}} className=" relative hover:cursor-pointer" >
+        <div onClick={() =>
+            window.open(
+              "https://drive.google.com/file/d/1pyVBC4rI3q0XDmupsogFyiPJZI9tllaq/view?usp=drive_link",
+              "_blank"
+            )
+          } className=" relative hover:cursor-pointer" >
           <div  className="relative text-center left-[6vw]">
             <div className="sm:text-[3.5vw] text-[10vw]">READ</div>
             <div style={{ textTransform: "uppercase" }} className="sm:text-[2vw] text-[6vw]">
