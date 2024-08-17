@@ -39,9 +39,9 @@ const Roadmap = () => {
                  </div>
                  <p className="w-[7vw]  text-left">$YUGE</p> 
                 </div>
-                <div className=" absolute left-0 bottom-0 w-[55%]">
-                  <img src="./images/step4.png" alt="" />
-                </div>
+                
+                  <img className=" absolute left-0 bottom-0 w-[20vw]" src="./images/step4.png" alt="" />
+                
               </div>
             </div>
           </div>
@@ -69,9 +69,7 @@ const Roadmap = () => {
               <div className=" text-white text-[4vw]">
                 MICRODAO DECIDES WHAT TD DO WITH TREASURY AND HOW TO GROW!
               </div>
-              <div className=" absolute right-0 top-0 -translate-y-[100%] w-[25vw]">
-                <img src="./images/step5.png" alt="" className=" z-20" />
-              </div>
+                <img className=" absolute right-0 top-0 -translate-y-[100%] w-[25vw] z-20" src="./images/step5.png" alt="" />
             </div>
           </div>
         </div>
