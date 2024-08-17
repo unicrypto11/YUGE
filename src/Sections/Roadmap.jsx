@@ -9,7 +9,7 @@ const Roadmap = () => {
       }}
     >
       <div id="road" className="flex flex-col w-full sm:py-[12vw] py-[4vw] px-[6vw] gap-[2vw] justify-between">
-        <div className="text-[#FF4A4A] sm:text-[4vw] text-[8vw]">ROADMAP</div>
+        <div className="text-[#FF4A4A] sm:text-[4vw] text-[8vw] pb-[4vw]">ROADMAP</div>
         <div className="flex flex-row w-full gap-[2vw] h-[70vw]">
           <div className=" flex flex-col gap-[2vw] w-[35vw]">
             <div className=" border-[2px] border-white pt-[3vw] px-[2vw] h-[30%]">
@@ -39,7 +39,7 @@ const Roadmap = () => {
                  </div>
                  <p className="w-[7vw]  text-left">$YUGE</p> 
                 </div>
-                <div className=" absolute left-0 bottom-0 w-[50%]">
+                <div className=" absolute left-0 bottom-0 w-[55%]">
                   <img src="./images/step4.png" alt="" />
                 </div>
               </div>
@@ -69,7 +69,7 @@ const Roadmap = () => {
               <div className=" text-white text-[4vw]">
                 MICRODAO DECIDES WHAT TD DO WITH TREASURY AND HOW TO GROW!
               </div>
-              <div className=" absolute right-0 top-0 -translate-y-[100%] w-[20vw]">
+              <div className=" absolute right-0 top-0 -translate-y-[100%] w-[25vw]">
                 <img src="./images/step5.png" alt="" className=" z-20" />
               </div>
             </div>
