@@ -12,7 +12,7 @@ function App() {
       <Hero />
       <Trumpenomics />
       <Roadmap />
-      <StakingPool/>
+      {/* <StakingPool/> */}
       <MegaPaper />
       <BlueSkyShop />
     </>

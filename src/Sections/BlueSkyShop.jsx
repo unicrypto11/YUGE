@@ -28,10 +28,10 @@ const BlueSkyShop = () => {
                 <div className="flex flex-row justify-center gap-[1vw] font-semibold text-[#E8DF00] sm:text-[6vw] text-[12vw]">
 
                 <div>
-                    <p className="drop-shadow-[0_0px_5px_rgba(0,117,225,1)]">Blue</p> 
+                    <p className="drop-shadow-[0_0px_4px_rgba(0,117,225,1)]">Blue</p> 
                 </div>
                 <div>
-                    <p className="drop-shadow-[0_0px_5px_rgba(255,0,0,1)]">Sky Shop</p> 
+                    <p className="drop-shadow-[0_0px_4px_rgba(255,0,0,1)]">Sky Shop</p> 
                 </div>
                 </div>
             </div>
