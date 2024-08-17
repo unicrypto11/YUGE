@@ -40,7 +40,7 @@ const Roadmap = () => {
                  <p className="w-[7vw]  text-left">$YUGE</p> 
                 </div>
                 
-                  <img className=" absolute left-0 bottom-0 w-[20vw]" src="./images/step4.png" alt="" />
+                  <img className=" absolute left-0 bottom-0 w-[16vw]" src="./images/step4.png" alt="" />
                 
               </div>
             </div>
