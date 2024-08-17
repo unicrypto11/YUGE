@@ -9,24 +9,17 @@ const MegaPaper = () => {
         backgroundRepeat: "no-repeat",
         backgroundSize: "100%, 100%",
       }}
-    >
-      <div className="text-white absolute right-[30vw] top-[15vw]">
+    ><div className="flex flex-row justify-end sm:pt-[5vw] pt-[24vw] sm:pr-[20vw] pr-[10vw] ">
+      <div className="text-white sm:w-[24vw] sm:h-[24vw] w-[36vw] h-[36vw] justify-center items-center bg-[url(/public/images/whitepaper.png)] bg-cover">
         <div onClick={() =>
             window.open(
               "https://drive.google.com/file/d/1pyVBC4rI3q0XDmupsogFyiPJZI9tllaq/view?usp=drive_link",
               "_blank"
             )
           } className=" relative hover:cursor-pointer" >
-          <div  className="relative text-center left-[6vw]">
-            <div className="sm:text-[3.5vw] text-[10vw]">READ</div>
-            <div style={{ textTransform: "uppercase" }} className="sm:text-[2vw] text-[6vw]">
-              Mega Paper
-            </div>
-          </div>
-          <div className=" absolute sm:top-[-5vw] sm:left-[1vw] sm:w-[20vw] sm:h-[20vw] top-[-8vw] left-[-5vw] w-[48vw] h-[48vw]">
-            <img src="images/legacy.png" alt="" />
-          </div>
+            <div className="sm:text-[3vw]  text-left text-[6vw] sm:py-[6vw] py-[8vw] sm:px-[6vw] px-[8vw]"><span className="sm:text-[6vw] text-[8vw]">READ</span> <br /> megapaper</div>
         </div>
+      </div>
       </div>
     </div>
   );
