@@ -4,7 +4,6 @@ import Trumpenomics from "./Sections/Trumpenomics";
 import Roadmap from "./Sections/Roadmap";
 import MegaPaper from "./Sections/MegaPaper";
 import BlueSkyShop from "./Sections/BlueSkyShop";
-import StakingPool from "./Sections/StakingPool";
 
 function App() {
   return (
@@ -12,7 +11,6 @@ function App() {
       <Hero />
       <Trumpenomics />
       <Roadmap />
-      {/* <StakingPool/> */}
       <MegaPaper />
       <BlueSkyShop />
     </>
