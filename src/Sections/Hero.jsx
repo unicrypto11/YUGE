@@ -3,16 +3,25 @@ import Navbar from "./Navbar";
 
 const Hero = () => {
   return (
-    <div id="home"
+    <div
+      id="home"
       className="w-full sm:h-[55vw] h-[210vw] bg-no-repeat sm:bg-[url(/public/images/Hero3.png)] bg-[url(/public/images/smHero1.png)] "
       style={{
-        
         backgroundSize: "100%, 100%",
       }}
     >
-        <Navbar/>
-      
+      <Navbar />
+
       <div className="sm:px-[10vw] sm:pt-[0.5vw] px-[10vw] pt-[24vw] justify-end flex flex-row gap-[1vw]">
+        <button
+          onClick={() => window.open("https://t.me/YUGE_ICP", "_blank")}
+          className="sm:w-[6vw] sm:h-[6vw] w-[12vw] h-[12vw] rounded-[1vw] bg-black hover:scale-110"
+          style={{
+            backgroundImage: "url(images/tgicon.png)",
+            backgroundSize: "100%, 100%",
+            backgroundRepeat: "no-repeat",
+          }}
+        ></button>
         <button
           onClick={() =>
             window.open(
@@ -28,12 +37,7 @@ const Hero = () => {
           }}
         ></button>
         <button
-          onClick={() =>
-            window.open(
-              "https://x.com/yuge_icp",
-              "_blank"
-            )
-          }
+          onClick={() => window.open("https://x.com/yuge_icp", "_blank")}
           className="sm:w-[6vw] sm:h-[6vw] w-[12vw] h-[12vw] rounded-[1vw] bg-black hover:scale-110"
           style={{
             backgroundImage: "url(images/icon2.png)",
