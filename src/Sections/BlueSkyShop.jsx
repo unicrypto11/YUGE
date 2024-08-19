@@ -3,7 +3,7 @@ import React from "react";
 const BlueSkyShop = () => {
     return (
         <div id="merc" className=" flex flex-col w-full sm:h-[124vw] h-[610vw] relative">
-            <div className=" w-full sm:h-[40vw] h-[100vw] mg:bg-[url(/public/images/Disc1.png)] bg-[url(/public/images/smDisc1.png)]" style={{backgroundRepeat: "no-repeat", backgroundSize: "100%, 100%"}}>
+            <div className=" w-full sm:h-[40vw] h-[100vw] sm:bg-[url(/public/images/Disc1.png)] bg-[url(/public/images/smDisc1.png)]" style={{backgroundRepeat: "no-repeat", backgroundSize: "100%, 100%"}}>
                 <div className="flex flex-row justify-center items-center pt-[30vw] sm:pt-[12vw] pb-[1vw] gap-[1vw]">
                     <div className="sm:flex sm:px-[1vw] sm:py-[0.2vw] sm:border-solid sm:border-[0.3vw] sm:border-white sm:text-white sm:text-[2.5vw] hidden">
                         coming soon
@@ -11,11 +11,11 @@ const BlueSkyShop = () => {
                     <div className="sm:flex sm:px-[1vw] sm:py-[0.2vw] sm:border-solid sm:border-[0.3vw] sm:border-white sm:text-white sm:text-[2.5vw] hidden">
                         coming soon
                     </div>
-                    <div className="sm:flex sm:px-[1vw] sm:py-[0.2vw] sm:border-solid sm:border-[0.3vw] sm:border-white sm:text-white sm:text-[2.5vw] flex px-[5vw] py-[0.4vw] border-solid border-[0.6vw] border-white text-white text-[6vw] ">
+                    <div className="sm:flex sm:px-[1vw] sm:py-[0.2vw] sm:border-solid sm:border-[0.3vw] sm:border-white sm:text-white sm:text-[2.5vw] flex px-[5vw] py-[0.4vw] border-solid border-[0.6vw] border-white text-white text-[5vw] ">
                         coming soon
                     </div>
                     <div className=" sm:w-[10vw] sm:h-[10vw] w-[24vw] h-[24vw]" style={{backgroundImage: 'url(images/Bits.png)', backgroundRepeat: 'no-repeat', backgroundSize: "100%, 100%"}}></div>
-                    <div className="sm:flex sm:px-[1vw] sm:py-[0.2vw] sm:border-solid sm:border-[0.3vw] sm:border-white sm:text-white sm:text-[2.5vw] flex px-[5vw] py-[0.4vw] border-solid border-[0.6vw] border-white text-white text-[6vw] ">
+                    <div className="sm:flex sm:px-[1vw] sm:py-[0.2vw] sm:border-solid sm:border-[0.3vw] sm:border-white sm:text-white sm:text-[2.5vw] flex px-[5vw] py-[0.4vw] border-solid border-[0.6vw] border-white text-white text-[5vw] ">
                         coming soon
                     </div>
                     <div className="sm:flex sm:px-[1vw] sm:py-[0.2vw] sm:border-solid sm:border-[0.3vw] sm:border-white sm:text-white sm:text-[2.5vw] hidden">

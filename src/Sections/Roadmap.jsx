@@ -67,7 +67,7 @@ const Roadmap = () => {
             <div className="h-[40%] border-[2px] flex flex-col border-white px-[2vw] pt-[1vw] relative">
               <div className=" text-[6vw] text-[#FF4A4A]">STEP5</div>
               <div className=" text-white text-[4vw]">
-                MICRODAO DECIDES WHAT TD DO WITH TREASURY AND HOW TO GROW!
+                MICRODAO DECIDES WHAT TO DO WITH TREASURY AND HOW TO GROW!
               </div>
                 <img className=" absolute right-0 top-0 -translate-y-[100%] w-[25vw] z-20" src="./images/step5.png" alt="" />
             </div>
